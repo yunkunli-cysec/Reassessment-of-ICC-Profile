@@ -1,0 +1,27 @@
+Noiseprint PoC -- Detection Summary
+============================================================
+
+Target image                             Expected camera        Best match              Mean NCC (best) Mean NCC for other    Status
+---------------------------------------------------------------------------------------------------------------------------------------
+GooglePixel6a(resized)_2.1_mmexport1775119253871.jpg GooglePixel6a(resized) GooglePixel6a(resized)        0.0022804           0.0008103   MATCH
+GooglePixel6a(resized)_2.3_mmexport1775713719368.jpg GooglePixel6a(resized) iPhone16ProMax(resized)        0.0013459          -0.0000028   MISMATCH
+GooglePixel6a(resized)_2.5_IMG_9722.JPG  GooglePixel6a(resized) GooglePixel6a(resized)        0.0022804           0.0008103   MATCH
+GooglePixel6a(resized)_2.B_PXL_20260402_071254403_1707x1280.jpg GooglePixel6a(resized) GooglePixel6a(resized)        0.0174020           0.0017096   MATCH
+GooglePixel6a(resized)_4.1_mmexport1775658031187.jpg GooglePixel6a(resized) GooglePixel6a(resized)        0.0012314           0.0008094   MATCH
+GooglePixel6a(resized)_4.3_mmexport1775658927007.jpg GooglePixel6a(resized) GooglePixel6a(resized)        0.0012314           0.0008094   MATCH
+GooglePixel6a(resized)_4.5_IMG_0119.JPG  GooglePixel6a(resized) GooglePixel6a(resized)        0.0012314           0.0008094   MATCH
+GooglePixel6a(resized)_4.B_PXL_20260402_071254403_1707x1280_no_ICC.jpg GooglePixel6a(resized) GooglePixel6a(resized)        0.0174020           0.0017096   MATCH
+iPhone16ProMax(resized)_1.1_IMG_9668.JPG iPhone16ProMax(resized) iPhone16ProMax(resized)        0.0014827          -0.0005561   MATCH
+iPhone16ProMax(resized)_1.3_IMG_2003.JPG iPhone16ProMax(resized) iPhone16ProMax(resized)        0.0014827          -0.0005561   MATCH
+iPhone16ProMax(resized)_1.5_mmexport1775113246157.jpg iPhone16ProMax(resized) iPhone16ProMax(resized)        0.0013735          -0.0005767   MATCH
+iPhone16ProMax(resized)_1.B_IMG_6927_1707x1280.JPG iPhone16ProMax(resized) iPhone16ProMax(resized)        0.0163840          -0.0005977   MATCH
+iPhone16ProMax(resized)_3.1_IMG_0112.JPG iPhone16ProMax(resized) iPhone16ProMax(resized)        0.0014827          -0.0005561   MATCH
+iPhone16ProMax(resized)_3.3_IMG_2024.JPG iPhone16ProMax(resized) iPhone16ProMax(resized)        0.0014827          -0.0005561   MATCH
+iPhone16ProMax(resized)_3.5_mmexport1775636384632.jpg iPhone16ProMax(resized) iPhone16ProMax(resized)        0.0014827          -0.0005561   MATCH
+iPhone16ProMax(resized)_3.B_IMG_6927_1707x1280_no_ICC.JPG iPhone16ProMax(resized) iPhone16ProMax(resized)        0.0163840          -0.0005977   MATCH
+---------------------------------------------------------------------------------------------------------------------------------------
+Matched: 15 / 16  (93.8%)
+
+NOTE: 'Expected camera' is parsed from the VISION-style filename prefix.
+      A MISMATCH may indicate tampering or an unexpected source camera.
+      'Mean NCC for other' is the average NCC across all non-best-match cameras.
